@@ -8,6 +8,20 @@ defaultContentLanguage = "en"
 hasCJKLanguage = false # true for Chinese/Japanese/Korean
 defaultContentLanguageInSubdir = false
 
+theme = 'github.com/canstand/compost'
+
+# required
+[build]
+_merge = 'deep'
+
+# required
+[markup]
+_merge = 'deep'
+
+# for better seo
+[minify]
+_merge = 'deep'
+
 # copyright = "Copy, _right?_ :thinking_face:"
 
 enableEmoji = true
